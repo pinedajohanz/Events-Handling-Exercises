@@ -1,0 +1,57 @@
+body {
+    background-color: burlywood;
+    font-family: lucida sans;
+    width: 500px;
+    margin: auto;   
+    padding-top: 100px;
+}
+
+#sticky {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    /* grid-template-columns: repeat(auto-fill, 50px); */
+    /* padding: 25px;
+    gap: 25px; */
+}
+
+/* .note {
+    height: 50px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: 1px solid black;
+    resize: none;
+    font-family: verdana;
+    font-size: 18px;
+    
+} */
+
+#container {
+    width: 400px;
+    height: 3000px;
+    margin: auto;
+    display: block;
+}
+.add_note {
+    border: 1px groove green;
+    background-color: cyan;
+    font-family: lucida sans; 
+    font-size:medium;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.page {
+    width: 300px;
+    height: 100px;
+    background: white;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
